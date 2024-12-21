@@ -1,4 +1,4 @@
-package service;
+package org.sid.controle.service;
 
 import org.sid.controle.dao.entities.Car;
 import org.sid.controle.dao.repositories.CarRepository;

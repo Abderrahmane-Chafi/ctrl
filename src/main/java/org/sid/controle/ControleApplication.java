@@ -19,10 +19,10 @@ public class ControleApplication {
     CommandLineRunner start(CarRepository carRepository) {
         return args -> {
             List<Car> avions = List.of(
-                    Car.builder().model("test1").color("White").matricul("ABC123").price(4000).build(),
-                    Car.builder().model("test2").color("green").matricul("XYZ456").price(2000).build(),
-                    Car.builder().model("test3").color("Red").matricul("DEF789").price(900).build(),
-                    Car.builder().model("test4").color("Black").matricul("GHI101").price(100).build()
+                    Car.builder().model("Dacia1").color("orange").matricul("ABC223").price(4989898).build(),
+                    Car.builder().model("Dacia2").color("black").matricul("wfu3224").price(11000).build(),
+                    Car.builder().model("Dacia3").color("yellow").matricul("fiwueiu32").price(5000).build(),
+                    Car.builder().model("Dacia4").color("red").matricul("ncjwij3").price(4387).build()
             );
             carRepository.saveAll(avions);
 
